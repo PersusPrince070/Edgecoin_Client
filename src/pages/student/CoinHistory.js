@@ -4,6 +4,7 @@ import { ReactComponent as BiArrow } from "../../assets/Icons/Bi Arrow.svg";
 import axios from "axios";
 import ServerURL from "../../utils/ServerURL";
 import DatePicker from "../../components/DatePicker";
+import { Link } from "react-router-dom";
 
 const CoinHistory = () => {
   const [goals, setGoals] = useState([]);
@@ -44,13 +45,18 @@ const CoinHistory = () => {
   useEffect(() => {
     filterData();
   }, [startDate, endDate]);
-  /* eslint-enable */
+  /* eslint-enable 
+  <Link to="/history" className="redeem">
+                View
+              </Link>*/
   return (
     <div className="container">
       <div className="header">
         <div className="flex">
           <div className="back">&lt;</div>
-          <div className="back-text">Back</div>
+          <Link to="/progress" className="back-text">
+            Back
+          </Link>
           <div className="title">Earned Coin History</div>
         </div>
       </div>
