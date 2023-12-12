@@ -1,6 +1,6 @@
 const ServerURL = {
-  BASE_URL: "https://lobster-app-mhbu4.ondigitalocean.app",
-  WS_BASE_URL: "wss://lobster-app-mhbu4.ondigitalocean.app",
+  BASE_URL: "https://sea-lion-app-3fs4w.ondigitalocean.app",
+  WS_BASE_URL: "wss://sea-lion-app-3fs4w.ondigitalocean.app",
 };
 
 // const ServerURL = {

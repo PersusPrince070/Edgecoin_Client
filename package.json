@@ -2,7 +2,8 @@
   "name": "edgeucoin",
   "version": "0.1.0",
   "engines": {
-    "node": "20.x"
+    "node": "18.10.x",
+    "npm": "8.19.x"
   },
   "private": true,
   "dependencies": {

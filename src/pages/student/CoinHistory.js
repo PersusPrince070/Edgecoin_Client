@@ -114,7 +114,6 @@ const CoinHistory = () => {
         </div>
         <div className="row header">
           <div className="label name">Awarded By</div>
-          <div className="label subject">Subject</div>
           <div className="label date">Date Awarded</div>
           <div className="label amount">Amount</div>
           <div className="label">Reason</div>
